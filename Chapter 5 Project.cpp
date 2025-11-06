@@ -1,9 +1,9 @@
-// This is the Main Branch
+// This is the RNG Guesser Subproject
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    cout << "This is the main branch!\n";
+    cout << "Amongus!\n";
 }
