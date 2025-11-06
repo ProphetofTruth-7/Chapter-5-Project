@@ -3,6 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
+#include <string>
 using namespace std;
 
 int main()
@@ -10,6 +11,7 @@ int main()
     int year = 1880;
     int asteriskLoopStart = 0;
     int population, asteriskLoopEnd;
+    string townName;
 
     ifstream inFile("People.txt");
     if (!inFile) {
@@ -18,9 +20,10 @@ int main()
     }
 
 
+    cout << "What is the name of this town? ";
+    cin >> townName;
 
-
-
+    cout << "\n" << townName << " Population Graph from 1900-2000(each * is 1000 people)\n \n";
     while (inFile >> population) {
         asteriskLoopEnd = population / 1000;
         year += 20;
