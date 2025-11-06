@@ -22,13 +22,11 @@ int main()
     string line;
 
     getline(inFile, line);
-        cout << line << endl;
         first = line;
         last = line;
         ++classSize;
 
     while (getline(inFile, line)) {
-        cout << line << endl;
         if (line < first) {
             first.replace(0, 10, line);
         }
