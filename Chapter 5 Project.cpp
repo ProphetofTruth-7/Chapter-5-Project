@@ -1,9 +1,9 @@
-// This is the Main Branch
+// This is the Lineup Subproejct
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    cout << "This is the main branch!\n";
+    cout << "This is the lineup subproject!\n";
 }
