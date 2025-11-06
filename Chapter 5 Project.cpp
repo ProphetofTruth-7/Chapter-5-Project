@@ -36,11 +36,10 @@ int main()
             last.replace(0, 10, line);
         }
         ++classSize;
-        cout << first << " and " << last << "\n";
     }
 
-    cout << first;
-    cout << last << "\n";
+    cout << "The first in line is " << first << "\n";
+    cout << "The last in line is " << last << "\n";
     cout << "This class includes " << classSize << " student(s)" << endl;
 
     inFile.close();
